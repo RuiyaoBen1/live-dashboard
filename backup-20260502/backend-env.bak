@@ -1,0 +1,20 @@
+# Device tokens: format is token:device_id:device_name:platform:panel_id
+DEVICE_TOKEN_1=7a9c23d8b432e6f3273d37d21afa20bc:pc-1:zhr的alien:windows:zhr
+DEVICE_TOKEN_2=b52b49a0762d56b1744f40437d74e25c:phone-1:zhr的IQOO13:android:zhr
+DEVICE_TOKEN_3=35375f7328630bfa28995d1a88393a8e:pc-2:ljx的R9000P:windows:friend
+DEVICE_TOKEN_4=87dc6c4185772c12373791c1d3f28d92:phone-2:ljx的OPPO Find X8:android:friend
+DEVICE_TOKEN_5=8b7cfe2b8b8be642021e39a3eb059904:pad-1:zhr的IQOO Pad5 Pro:android:zhr
+
+# HMAC secret for hashing window_title
+HASH_SECRET=f5d857e37d112e5a353a569ee4c0da939e412ddc3a1ac3fd4ce6460f674aa194
+
+# Admin token
+ADMIN_TOKEN=123456
+
+# Site customization
+DISPLAY_NAME=zhr
+SITE_TITLE=Status Now
+SITE_DESC=What is zhr doing right now?
+
+# Panel grouping
+PANELS=[{"id":"zhr","name":"zhr的面板"},{"id":"friend","name":"ljx的面板"}]

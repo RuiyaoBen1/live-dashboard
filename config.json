@@ -1,0 +1,8 @@
+{
+  "server_url": "http://127.0.0.1:3000",
+  "token": "7a9c23d8b432e6f3273d37d21afa20bc",
+  "interval_seconds": 5,
+  "heartbeat_seconds": 60,
+  "idle_threshold_seconds": 300,
+  "enable_log": false
+}

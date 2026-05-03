@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cd 'E:/live-dashboard-main' && git status 2>&1\",\"description\":\"Check if git repo exists\"}",
+  "error": "Exit code 128\nfatal: not a git repository (or any of the parent directories): .git",
+  "timestamp": "2026-05-03T11:35:24.968Z",
+  "retry_count": 1
+}

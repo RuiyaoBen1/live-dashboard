@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl:*)",
+      "Bash(bun:*)",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(cp:*)",
+      "Bash(rm:*)",
+      "Bash(mkdir:*)",
+      "Bash(sleep:*)",
+      "Bash(export:*)",
+      "Bash(python3:*)",
+      "PowerShell(Get-NetTCPConnection:*)",
+      "PowerShell(Stop-Process:*)",
+      "PowerShell(Write-Host:*)",
+      "WebFetch",
+      "WebSearch",
+      "Edit(*.ts)",
+      "Edit(*.tsx)",
+      "Edit(*.env)",
+      "Edit(*.css)",
+      "Edit(*.json)",
+      "Edit(*.svg)",
+      "Write(*.ts)",
+      "Write(*.tsx)",
+      "Write(*.env)",
+      "Write(*.css)",
+      "Write(*.json)",
+      "Write(*.svg)",
+      "Write(*.jpg)",
+      "Write(*.md)"
+    ]
+  }
+}

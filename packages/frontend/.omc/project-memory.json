@@ -1,0 +1,349 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1777779656990,
+  "projectRoot": "E:\\live-dashboard-main\\packages\\frontend",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "next",
+        "version": "15.1.0",
+        "category": "fullstack"
+      },
+      {
+        "name": "react",
+        "version": "19.0.0",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "19.0.0",
+        "category": "frontend"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "cd 'E:/live-dashboard-main/packages/frontend' && bun run build 2>&1",
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": "npm run dev",
+    "scripts": {
+      "dev": "next dev --turbopack",
+      "build": "next build",
+      "start": "next start"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": "type-based"
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "app",
+      "src"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "app": {
+      "path": "app",
+      "purpose": "Application code",
+      "fileCount": 4,
+      "lastAccessed": 1777779656863,
+      "keyFiles": [
+        "globals.css",
+        "layout.tsx",
+        "page.tsx",
+        "page.tsx.bak"
+      ]
+    },
+    "out": {
+      "path": "out",
+      "purpose": "Build output",
+      "fileCount": 3,
+      "lastAccessed": 1777779656918,
+      "keyFiles": [
+        "404.html",
+        "index.html",
+        "index.txt"
+      ]
+    },
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 0,
+      "lastAccessed": 1777779656919,
+      "keyFiles": []
+    },
+    "src\\components": {
+      "path": "src\\components",
+      "purpose": "UI components",
+      "fileCount": 11,
+      "lastAccessed": 1777779656922,
+      "keyFiles": [
+        "CurrentStatus.tsx",
+        "DatePicker.tsx",
+        "DeviceCard.tsx"
+      ]
+    },
+    "src\\lib": {
+      "path": "src\\lib",
+      "purpose": "Library code",
+      "fileCount": 2,
+      "lastAccessed": 1777779656923,
+      "keyFiles": [
+        "api.ts",
+        "app-descriptions.ts"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "app\\page.tsx",
+      "accessCount": 64,
+      "lastAccessed": 1777805194200,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\StatsOverlay.tsx",
+      "accessCount": 17,
+      "lastAccessed": 1777805176725,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\Header.tsx",
+      "accessCount": 12,
+      "lastAccessed": 1777803332515,
+      "type": "directory"
+    },
+    {
+      "path": "C:\\Users\\14546\\.claude\\projects\\E--live-dashboard-main\\memory\\MEMORY.md",
+      "accessCount": 10,
+      "lastAccessed": 1777800714788,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\WeatherCard.tsx",
+      "accessCount": 8,
+      "lastAccessed": 1777788970940,
+      "type": "file"
+    },
+    {
+      "path": "",
+      "accessCount": 8,
+      "lastAccessed": 1777802542961,
+      "type": "directory"
+    },
+    {
+      "path": "src\\lib\\api.ts",
+      "accessCount": 8,
+      "lastAccessed": 1777803064034,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\MusicPlayer.tsx",
+      "accessCount": 7,
+      "lastAccessed": 1777807583295,
+      "type": "file"
+    },
+    {
+      "path": "app\\globals.css",
+      "accessCount": 5,
+      "lastAccessed": 1777804329245,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\CurrentStatus.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1777787763048,
+      "type": "file"
+    },
+    {
+      "path": "app\\layout.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1777802540870,
+      "type": "file"
+    },
+    {
+      "path": "src",
+      "accessCount": 3,
+      "lastAccessed": 1777802551608,
+      "type": "directory"
+    },
+    {
+      "path": "app",
+      "accessCount": 3,
+      "lastAccessed": 1777802553097,
+      "type": "directory"
+    },
+    {
+      "path": "C:\\Users\\14546\\.claude\\projects\\E--live-dashboard-main\\memory\\reference_site_url.md",
+      "accessCount": 3,
+      "lastAccessed": 1777805693756,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\MessageBoard.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1777710341863,
+      "type": "file"
+    },
+    {
+      "path": "C:\\Users\\14546\\.claude\\projects\\E--live-dashboard-main\\memory",
+      "accessCount": 2,
+      "lastAccessed": 1777780784500,
+      "type": "directory"
+    },
+    {
+      "path": "C:\\Users\\14546\\.cloudflared\\config.yml",
+      "accessCount": 2,
+      "lastAccessed": 1777789321469,
+      "type": "file"
+    },
+    {
+      "path": "C:\\Users\\14546\\.claude\\projects\\E--live-dashboard-main\\memory\\feedback_update_claude_md.md",
+      "accessCount": 2,
+      "lastAccessed": 1777805731638,
+      "type": "file"
+    },
+    {
+      "path": "C:\\Users\\14546\\AppData\\Local\\Temp\\claude\\E--live-dashboard-main\\7c47ccb5-2d49-4bba-88a5-ccb8b6ecb5f1\\tasks\\bnxl507i4.output",
+      "accessCount": 1,
+      "lastAccessed": 1777670401558,
+      "type": "file"
+    },
+    {
+      "path": "C:\\Users\\14546\\AppData\\Local\\Temp\\claude\\E--live-dashboard-main\\7c47ccb5-2d49-4bba-88a5-ccb8b6ecb5f1\\tasks\\blhac94kt.output",
+      "accessCount": 1,
+      "lastAccessed": 1777672650734,
+      "type": "file"
+    },
+    {
+      "path": "C:\\Users\\14546\\AppData\\Local\\Temp\\claude\\E--live-dashboard-main\\7c47ccb5-2d49-4bba-88a5-ccb8b6ecb5f1\\tasks\\bb20ky6li.output",
+      "accessCount": 1,
+      "lastAccessed": 1777702640966,
+      "type": "file"
+    },
+    {
+      "path": "C:\\Users\\14546\\AppData\\Local\\Temp\\claude\\E--live-dashboard-main\\7c47ccb5-2d49-4bba-88a5-ccb8b6ecb5f1\\tasks\\bpngxcqeu.output",
+      "accessCount": 1,
+      "lastAccessed": 1777709073391,
+      "type": "file"
+    },
+    {
+      "path": "C:\\Users\\14546\\Desktop",
+      "accessCount": 1,
+      "lastAccessed": 1777709253156,
+      "type": "directory"
+    },
+    {
+      "path": "C:\\Users\\14546\\AppData\\Local\\Temp\\d96dbee0-952a-45c5-a67a-fbb8f873feab.png",
+      "accessCount": 1,
+      "lastAccessed": 1777709681767,
+      "type": "file"
+    },
+    {
+      "path": "C:\\Users\\14546\\AppData\\Local\\Temp\\claude\\E--live-dashboard-main\\7c47ccb5-2d49-4bba-88a5-ccb8b6ecb5f1\\tasks\\b5ty20599.output",
+      "accessCount": 1,
+      "lastAccessed": 1777709857486,
+      "type": "file"
+    },
+    {
+      "path": "C:\\Users\\14546\\AppData\\Local\\Temp\\claude\\E--live-dashboard-main\\57f75fed-b90b-4b1b-ab6a-e4202cdda054\\tasks\\bqd9chfna.output",
+      "accessCount": 1,
+      "lastAccessed": 1777739369096,
+      "type": "file"
+    },
+    {
+      "path": "src\\hooks\\useDashboard.ts",
+      "accessCount": 1,
+      "lastAccessed": 1777787742527,
+      "type": "file"
+    },
+    {
+      "path": "src\\hooks\\useConfig.ts",
+      "accessCount": 1,
+      "lastAccessed": 1777787777439,
+      "type": "file"
+    },
+    {
+      "path": "next.config.ts",
+      "accessCount": 1,
+      "lastAccessed": 1777787778096,
+      "type": "file"
+    },
+    {
+      "path": "C:\\Users\\14546\\.claude\\plans\\ip-ip-ip-structured-horizon.md",
+      "accessCount": 1,
+      "lastAccessed": 1777787957156,
+      "type": "file"
+    },
+    {
+      "path": "C:\\Users\\14546\\AppData\\Local\\Temp\\claude\\E--live-dashboard-main\\f8a49415-e307-4359-9ae2-cbfcc4ba9814\\tasks\\b4719sf4r.output",
+      "accessCount": 1,
+      "lastAccessed": 1777789561888,
+      "type": "file"
+    },
+    {
+      "path": "C:\\Users\\14546\\.claude\\projects\\E--live-dashboard-main\\memory\\feedback_no_docker.md",
+      "accessCount": 1,
+      "lastAccessed": 1777799827456,
+      "type": "file"
+    },
+    {
+      "path": "C:\\Users\\14546\\AppData\\Local\\Temp\\claude\\E--live-dashboard-main\\e6c86981-577b-4b22-baca-bf7c07d458f1\\tasks\\bfwro4l0f.output",
+      "accessCount": 1,
+      "lastAccessed": 1777799972719,
+      "type": "file"
+    },
+    {
+      "path": "C:\\Users\\14546\\.claude\\projects\\E--live-dashboard-main\\memory\\feedback_album_covers.md",
+      "accessCount": 1,
+      "lastAccessed": 1777800601762,
+      "type": "file"
+    },
+    {
+      "path": "src\\lib\\app-descriptions.ts",
+      "accessCount": 1,
+      "lastAccessed": 1777801251493,
+      "type": "directory"
+    },
+    {
+      "path": "src\\components",
+      "accessCount": 1,
+      "lastAccessed": 1777802554396,
+      "type": "directory"
+    },
+    {
+      "path": "C:\\Users\\14546\\.claude\\plans\\a-a-snappy-lighthouse.md",
+      "accessCount": 1,
+      "lastAccessed": 1777802729230,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
