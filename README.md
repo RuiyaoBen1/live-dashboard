@@ -78,6 +78,3 @@ Set in `packages/backend/.env`:
 | GET/POST/DELETE | `/api/messages` | Message board |
 | POST | `/api/report` | Agent activity reporting |
 
-## Forked from
-
-https://github.com/nmb1337/live-dashboard
